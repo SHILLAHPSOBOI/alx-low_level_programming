@@ -21,7 +21,7 @@ int main(void)
 				putchar(C);
 				putchar(R);
 				
-				if ((L == 55) && (C == L + 1) && (R == C + 1))
+		if ((L == 55) && (C == L + 1) && (R == C + 1))
 					{
 						break;
 					}
