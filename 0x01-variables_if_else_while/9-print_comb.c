@@ -10,11 +10,11 @@ int main(void)
 {
 	int no;
 
-	for (no = 27; no <= 38; no++)
+	for (no = 48; no <= 57; no++)
 	{
 		putchar(no);
 
-		if (no == 38)
+		if (no == 57)
 		{
 			break;
 		}
