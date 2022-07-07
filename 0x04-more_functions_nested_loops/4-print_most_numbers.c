@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_most_numbers(void)
+ * print_most_numbers - prints numbers
  * 
  * Return: Always 0
  */
@@ -10,9 +10,9 @@ void print_most_numbers(void)
 	int i;
 
 	i = 0;
-	while (1 <10)
+	while (1 < 10)
 	{
-		if (i != 2 && i !=4)
+		if (i != 2 && i != 4)
 		{
 			_putchar (i + '0');
 		}
