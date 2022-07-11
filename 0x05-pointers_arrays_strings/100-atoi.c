@@ -7,9 +7,9 @@
  * Return: 1 for number else 0
  */
 
-int is_numerical(unsignrd int n)
+int is_numerical(unsigned int n)
 {
-	return (n >= '0'&& n <= '9');
+	return (n >= '0' && n <= '9');
 }
 
 /**
