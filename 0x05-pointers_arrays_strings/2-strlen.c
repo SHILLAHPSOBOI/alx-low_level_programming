@@ -4,7 +4,7 @@
  * _strlen - length of a string
  * @s: pointer to be updated
  *
- * Retuen: void
+ * Return: void
  */
 
 int _strlen(char *s)
