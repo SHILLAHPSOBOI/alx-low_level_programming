@@ -2,11 +2,11 @@
 
 /**
  * cap_string - capitalizes every word of a string
- * @: string to be updated
+ * @s: string to be updated
  *
  * Return: result
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i, j;
 
@@ -17,7 +17,7 @@ char *cap_string(char *)
 		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
 			s[i] -= 32;
 
-		for (j = 0; j< 13; j++)
+		for (j = 0; j < 13; j++)
 		{
 			if (s[i] == spe[j])
 			{
