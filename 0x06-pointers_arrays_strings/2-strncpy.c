@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strncpy - copies string
+ * _strncpy - copies string
  * @dest: pointer to be updated
  * @src: pointer to be updated
  * @n: value
