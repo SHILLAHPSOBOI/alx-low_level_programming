@@ -7,7 +7,7 @@
  * Return: Alwaya 0
  */
 
-char *leet(char *)
+char *leet(char *str)
 {
 	int i = 0, k;
 	char s[] = "aAeEoOtTlL";
@@ -15,7 +15,7 @@ char *leet(char *)
 
 	for (; str[i] != '\0'; i++)
 	{
-		for (k = 0; k<= 9; k++)
+		for (k = 0; k <= 9; k++)
 		{
 			if (s[k] == str[i])
 			{
