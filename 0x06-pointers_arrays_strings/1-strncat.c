@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strncat - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: pointer to be updated
  * @src: pointer to be updated
  * @n: value
