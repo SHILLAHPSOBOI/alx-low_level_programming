@@ -5,7 +5,7 @@
  * @x: value
  * @y: value
  *
- * Retuun: result
+ * Return: result
  */
 int _pow_recursion(int x, int y)
 {
