@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * is_digit - checks if string contais a non digit char
+ * is_digit - checks if string contains a non digit char
  * @s: string
  *
  * Return: 0 or 1
@@ -22,7 +22,7 @@ int is_digit(char *s)
 }
 
 /**
- * _strlen - returns length of a strinf
+ * _strlen - returns length of a string
  * @s: string
  *
  * Return: length of string
@@ -62,9 +62,9 @@ int main(int argc, char *argv[])
 	s1 = argv[1], s2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
-	len = _strlen(s1);
-	len2 = _strlen(s2)
-		len = len1 + len2 + 1;
+	len1 = _strlen(s1);
+	len2 = _strlen(s2);
+	len = len1 + len2 + 1;
 	result = malloc(sizeof(int) * len);
 	if (!result)
 		return (1);
