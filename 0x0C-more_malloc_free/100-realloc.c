@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * *_realloc - rellocates a memory block
- * @p: pointer
+ * *_realloc - reallocates a memory block
+ * @ptr: pointer
  * @old_size: size of memory for p
  * @new_size: new size of memory block
  *
@@ -11,40 +11,40 @@
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	char *p;
-	char *old_p;
+	char *ptr1;
+	char *old_ptr;
 	unsigned int i;
 
 	if (new_size == old_size)
-		return (p);
+		return (ptr);
 
-	if (new_size == 0 && p)
+	if (new_size == 0 && ptr)
 	{
-		free(p);
+		free(ptr);
 		return (NULL);
 	}
 
-	if (!p)
+	if (!ptr)
 		return (malloc(new_size));
 
-	p1 = malloc(new_size);
-	if (!p1)
+	ptr1 = malloc(new_size);
+	if (!ptr1)
 		return (NULL);
 
-	old_p = p;
+	old_ptr = ptr;
 
 	if (new_size < old_size)
 	{
 		for (i = 0; i < new_size; i++)
-			p1[i] = old_p[i];
+			ptr1[i] = old_ptr[i];
 	}
 
 	if (new_size > old_size)
 	{
 		for (i = 0; i < old_size; i++)
-			p1[i] = pld_p[i];
+			ptr1[i] = old_ptr[i];
 	}
 
-	free(p);
-	return (p1);
+	free(ptr);
+	return (ptr1);
 }
