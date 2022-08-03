@@ -22,7 +22,7 @@ int _strlen(char *s)
 }
 
 /**
- * *_strcpy - copies string 
+ * *_strcpy - copies string
  * @dest: pointer
  * @src: string
  *
