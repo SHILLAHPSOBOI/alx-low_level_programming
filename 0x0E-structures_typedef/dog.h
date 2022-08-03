@@ -3,21 +3,21 @@
 
 /**
  * struct dog - dog's info
- * @name: name of dog
- * @age: of dog
- * @owner: of the dog
+ * @name: firt member
+ * @age: second member
+ * @owner: third member
  *
- * Description: longer description
+ * Decsription - longer description
  */
 struct dog
 {
 	char *name;
 	float age;
-	char *owner:
+	char *owner;
 };
 
 /**
- * dog_t - typedef of struct dog
+ * dog_t - typedef
  */
 typedef struct dog dog_t;
 
